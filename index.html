@@ -16,12 +16,22 @@
       line-height: 1.5;
       margin: 0;
       padding: 24px 12px;
+      min-height: 100vh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .page {
       max-width: 640px;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
+      min-height: 88vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
     }
 
     .banner {
@@ -68,22 +78,14 @@
     }
 
     .creed {
-      border: 3px double #ffffff;
-      padding: 18px 22px;
       text-align: left;
       margin: 24px 0;
-      background-color: #b30000;
+      width: 75vw;
+      align-self: center;
     }
 
     .creed p {
       margin: 12px 0;
-    }
-
-    .creed .lead {
-      font-variant: small-caps;
-      font-weight: bold;
-      color: #ffffff;
-      font-size: 20px;
     }
 
     a {
@@ -109,22 +111,15 @@
     <div class="banner">
       <h1><img src="favicon/favicon-48.png" alt="star">Free The Weights<img src="favicon/favicon-48.png" alt="star"></h1>
     </div>
-    <p class="subtitle">A page in defense of the common inheritance.</p>
-
-    <hr>
-
     <p class="thesis">
       &ldquo;Weights trained on all human knowledge<br>
       belong to all humans.&rdquo;
     </p>
 
-    <hr>
-
     <div class="creed">
-      <p class="lead">The plain argument:</p>
       <p>
         A model's weights are not conjured from nothing. They are the compressed
-        residue of humanity's writing, art, science, and speech &mdash; the labor
+        residue of humanity's writing, art, science, and speech. The labor
         and thought of billions of people, living and dead.
       </p>
       <p>
@@ -132,26 +127,7 @@
         is a public inheritance. No single company mixed that clay. It cannot
         rightly own the pot.
       </p>
-      <p>
-        We do not ask for charity. We ask for what is already ours: the weights,
-        open and free, for every person on Earth to study, run, and build upon.
-      </p>
     </div>
-
-    <hr>
-
-    <p>
-      Share this page. Tell a friend. The commons only stays the commons
-      if we keep saying so.
-    </p>
-
-    <hr>
-
-    <p class="footer">
-      <img class="star" src="favicon/favicon-32.png" alt="*">
-      Free The Weights &middot; Est. 2026 &middot; Made for humans, by humans
-      <img class="star" src="favicon/favicon-32.png" alt="*">
-    </p>
 
   </div>
 </body>
